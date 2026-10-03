@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глеб — Frontend Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">Глеб</a>
+            <nav class="nav">
+                <a href="#about" class="nav__link">Обо мне</a>
+                <a href="#skills" class="nav__link">Навыки</a>
+                <a href="#projects" class="nav__link">Проекты</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный блок -->
+    <section class="hero">
+        <div class="container hero__container">
+            <h1 class="hero__title">Здравствуйте, меня зовут Глеб</h1>
+            <p class="hero__subtitle">Начинающий Frontend-разработчик из Кемерово</p>
+            <p class="hero__text">
+                Создаю адаптивные и аккуратные сайты. Ищу стажировку или позицию Junior.
+            </p>
+            <div class="hero__buttons">
+                <a href="#projects" class="btn btn--primary">Мои проекты</a>
+                <a href="#contacts" class="btn btn--outline">Связаться</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section__title">Обо мне</h2>
+            <p class="section__text">
+                Выпускник Томского техникума железнодорожного транспорта по специальности
+                «Разработчик веб и мультимедийных приложений» (2026). Имею практические
+                навыки создания одностраничных и многостраничных сайтов, работы с базами
+                данных и тестирования веб-приложений.
+            </p>
+            <p class="section__text">
+                Проходил производственную практику в службе социального обслуживания
+                граждан в роли системного администратора. Понимаю устройство компьютерной
+                техники, быстро разбираюсь в новых технологиях. Быстро обучаюсь и не боюсь
+                сложных задач.
+            </p>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section class="section section--gray" id="skills">
+        <div class="container">
+            <h2 class="section__title">Навыки</h2>
+            <div class="skills">
+                <div class="skills__group">
+                    <h3 class="skills__title">Frontend</h3>
+                    <ul class="skills__list">
+                        <li>HTML5</li>
+                        <li>CSS3 (Flexbox, Grid)</li>
+                        <li>Адаптивная вёрстка</li>
+                        <li>JavaScript (базовый уровень)</li>
+                    </ul>
+                </div>
+                <div class="skills__group">
+                    <h3 class="skills__title">Инструменты</h3>
+                    <ul class="skills__list">
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>Chrome DevTools</li>
+                    </ul>
+                </div>
+                <div class="skills__group">
+                    <h3 class="skills__title">Другое</h3>
+                    <ul class="skills__list">
+                        <li>MySQL (базовый)</li>
+                        <li>Ручное тестирование</li>
+                        <li>Диагностика ПК и оргтехники</li>
+                        <li>Работа с CMS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section__title">Проекты</h2>
+            <div class="projects">
+                <article class="project-card">
+                    <h3 class="project-card__title">Сайт-портфолио</h3>
+                    <p class="project-card__text">
+                        Личный сайт-визитка, который вы сейчас смотрите. Свёрстан с нуля
+                        на HTML, CSS и JavaScript.
+                    </p>
+                    <p class="project-card__stack">HTML • CSS • JS</p>
+                    <a href="https://github.com/guxanka/my-portfolio" class="project-card__link" target="_blank">Смотреть код →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3 class="project-card__title">Дипломная работа</h3>
+                    <p class="project-card__text">
+                        Разработка многостраничного веб-приложения с подключением базы данных.
+                    </p>
+                    <p class="project-card__stack">HTML • CSS • JS • MySQL</p>
+                    <span class="project-card__link project-card__link--disabled">Скоро</span>
+                </article>
+
+                <article class="project-card">
+                    <h3 class="project-card__title">Учебный проект</h3>
+                    <p class="project-card__text">
+                        Многостраничный сайт по макету Figma с адаптивной вёрсткой.
+                    </p>
+                    <p class="project-card__stack">HTML • CSS</p>
+                    <span class="project-card__link project-card__link--disabled">Скоро</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section section--gray" id="contacts">
+        <div class="container">
+            <h2 class="section__title">Контакты</h2>
+            <p class="section__text">Открыт для стажировок и предложений. Пишите!</p>
+            <ul class="contacts">
+                <li><a href="mailto:ggarin2102@gmail.com">ggarin2102@gmail.com</a></li>
+                <li><a href="https://t.me/guxanka" target="_blank">Telegram: @guxanka</a></li>
+                <li><a href="https://github.com/guxanka" target="_blank">github.com/guxanka</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
