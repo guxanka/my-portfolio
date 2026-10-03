@@ -3,7 +3,7 @@
 Привет! Меня зовут Глеб. Я начинающий Frontend-разработчик (или QA Engineer) из Кемерово. Этот репозиторий содержит мой сайт-портфолио, где я собрал свои учебные и личные проекты.
 
 ## Демо
-Сайт доступен по ссылке: [https://твой_ник.github.io/my-portfolio/](...)
+Сайт доступен по ссылке: [https://guxanka.github.io/my-portfolio/](...)
 
 ## Технологии
 - HTML5
@@ -26,7 +26,7 @@
 ## Контакты
 - Email: ggarin2102@gmail.com
 - Telegram: @guxanka
-- GitHub: https://github.com/guxanka(...)
+- GitHub: https://github.com/guxanka
 
 ## Цель
 Ищу стажировку или позицию Junior Frontend Developer / QA Engineer. Готов работать удалённо или в офисе (Кемерово). Быстро обучаюсь, люблю разбираться в технологиях.
